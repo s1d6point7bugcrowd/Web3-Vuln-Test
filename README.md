@@ -77,8 +77,6 @@ Logging and Reporting
     Reporting: You can enhance the script to generate a detailed report in REPORT_FILE (vulnerability_report.txt) by writing the test results to this file.
 
 
-Example Output:
-
 2024-06-10 12:00:00 - Starting vulnerability tests
 2024-06-10 12:00:01 - Exceed Max Supply Result: {'status': 'success', 'details': 'Exceeded max supply successfully'}
 2024-06-10 12:00:02 - Loss of Funds Result: {'status': 'failure', 'details': 'Insufficient funds'}

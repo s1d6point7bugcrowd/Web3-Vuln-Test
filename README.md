@@ -1,17 +1,9 @@
 This repository contains a set of scripts to perform targeted vulnerability testing for blockchain, ZkLogin circuits, and DeepBook systems. The scripts are designed to comply with specific bug bounty program rules, avoiding massive traffic generation and focusing on critical, high, medium, and low impact vulnerabilities.
-Table of Contents
 
-    Introduction
-    Configuration
-    Modules
         Blockchain Module
         ZkLogin Module
         DeepBook Module
-    Main Script
-    Running the Script
-    Logging and Reporting
-    Customization and Expansion
-
+    
 Introduction
 
 These scripts are designed to test a variety of vulnerabilities within the specified scope of a bug bounty program. The main focus areas include blockchain/DLT, ZkLogin circuits, and DeepBook systems. The scripts are modular, allowing for targeted testing of specific vulnerabilities while minimizing the risk of generating excessive traffic.

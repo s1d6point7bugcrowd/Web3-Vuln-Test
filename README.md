@@ -76,6 +76,28 @@ Logging and Reporting
     Logging: The script logs results and errors in the file specified in LOG_FILE (vulnerability_test_log.txt).
     Reporting: You can enhance the script to generate a detailed report in REPORT_FILE (vulnerability_report.txt) by writing the test results to this file.
 
+
+Example Output:
+
+2024-06-10 12:00:00 - Starting vulnerability tests
+2024-06-10 12:00:01 - Exceed Max Supply Result: {'status': 'success', 'details': 'Exceeded max supply successfully'}
+2024-06-10 12:00:02 - Loss of Funds Result: {'status': 'failure', 'details': 'Insufficient funds'}
+2024-06-10 12:00:03 - BFT Violation Result: {'status': 'success', 'details': 'BFT violation detected'}
+2024-06-10 12:00:04 - Network Shutdown Result: {'status': 'failure', 'details': 'Network stable'}
+2024-06-10 12:00:05 - Remote Code Execution Result: {'status': 'success', 'details': 'RCE successful'}
+2024-06-10 12:00:06 - Temporary Network Shutdown Result: {'status': 'failure', 'details': 'Network stable'}
+2024-06-10 12:00:07 - Unintended Smart Contract Behavior Result: {'status': 'success', 'details': 'Unexpected behavior observed'}
+2024-06-10 12:00:08 - Permanent Burning of SUI Result: {'status': 'failure', 'details': 'Burn failed'}
+2024-06-10 12:00:09 - Node Shutdown Result: {'status': 'success', 'details': 'Node shutdown triggered'}
+2024-06-10 12:00:10 - Invariant Violation Error Result: {'status': 'success', 'details': 'Invariant violation triggered'}
+2024-06-10 12:00:11 - Fullnode Crash Result: {'status': 'failure', 'details': 'No crash observed'}
+2024-06-10 12:00:12 - ZkLogin Circuit Result: {'status': 'failure', 'details': 'No vulnerabilities found'}
+2024-06-10 12:00:13 - DeepBook Significant Loss of Funds Result: {'status': 'failure', 'details': 'No loss detected'}
+2024-06-10 12:00:14 - DeepBook Permanent DoS Result: {'status': 'success', 'details': 'Permanent DoS triggered'}
+2024-06-10 12:00:15 - DeepBook Temporary DoS Result: {'status': 'failure', 'details': 'No temporary DoS detected'}
+2024-06-10 12:00:16 - Completed vulnerability tests
+
+
 Customization and Expansion
 
 You can customize the payloads and add more tests based on the in-scope vulnerabilities. Additionally, you can refine the logging and reporting mechanisms to suit your needs.

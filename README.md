@@ -11,7 +11,7 @@ Configuration
 
 Before running the scripts, ensure you have configured the necessary settings in the config.py file. This includes specifying the in-scope endpoints and custom headers for identification.
 
-python
+
 
 # config.py
 IN_SCOPE_ENDPOINTS = {
